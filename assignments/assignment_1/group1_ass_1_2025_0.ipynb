@@ -1,0 +1,383 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "5d198778",
+   "metadata": {},
+   "source": [
+    "# Assignment_1\n",
+    "If you copy codes from previous answers, explain each step. No explanation is `0 points`."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "853562f8",
+   "metadata": {},
+   "source": [
+    "##  Part 1.Data types\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "521b5fe7",
+   "metadata": {},
+   "source": [
+    "a.Declare one variable for each one these types: : int , float , string , boolean.\n",
+    "- Print  the varible's type using  type () function\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b8adc928",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1a2d5445",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ce38f1d9",
+   "metadata": {},
+   "source": [
+    " b. Using only the following inputs: ```5``` and ```2```  ,  work the  operators to get the output  : ```50```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "46b08279",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "42009dda",
+   "metadata": {},
+   "source": [
+    "c. Evaluate if the output of the previous excercise is over 100. Create a variable that makes this evaluation. (Hint: It would be a boolean)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e1226c5e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "877a0395",
+   "metadata": {},
+   "source": [
+    "d. Create a variable equal to a list that contains: \n",
+    "- a string,\n",
+    "- a boolean,\n",
+    "- two numeric values ( of any kind)  and\n",
+    "- a  list of two strings with the names of your favourite musical artists. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "081b71d0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e2a5f459",
+   "metadata": {},
+   "source": [
+    "## Part 2. Containers"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "51681d3c",
+   "metadata": {},
+   "source": [
+    "e. Create a tuple with 3 elements. Explain why you can't modify it. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dd8d0079",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "25ecd132",
+   "metadata": {},
+   "source": [
+    "f.Create a dictionary with at least 3 different  keys and values ."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "57ac77f1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "88837e32",
+   "metadata": {},
+   "source": [
+    "g.We got the next courses list: "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "b75be7fb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "courses = [\"History\", \"Economy\", \"Anthropology\", \"Sociology \", \"Literature\"]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "005d3d70",
+   "metadata": {},
+   "source": [
+    "g.1.Add tree additional courses in 3 different ways( one for each way):\n",
+    "   - Sum (+) a list that contains an additional course. \n",
+    "   - Use append. \n",
+    "   - Use extend. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6d6e70db",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6cf07d6a",
+   "metadata": {},
+   "source": [
+    "g.2.Use the indexation to stress _Sociology_."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a03e468",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfb7ace5",
+   "metadata": {},
+   "source": [
+    "g.3 Remove your least favourite course"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "63ea56cf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d07e8d7c",
+   "metadata": {},
+   "source": [
+    "g.4. Invert the list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c32c86be",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "17a5576a",
+   "metadata": {},
+   "source": [
+    "h.Create a dictionary that representst a fruits inventory:\n",
+    " - Add at least 5 fruits to the inventory\n",
+    "- Print the amount of apples in stock \n",
+    "- Modify the amount of grapes\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a7ec16e9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0c74c187",
+   "metadata": {},
+   "source": [
+    "i.  Write a dictionary with the local GMT of the nexts cities:\n",
+    "- Antananarivo, Madagascar, \n",
+    "- Beirut, Lebanon, \n",
+    "- Jakarta, Indonesia, \n",
+    "- Teherán, Iran, \n",
+    "- Vientiane, Laos, \n",
+    "\n",
+    "\n",
+    "\n",
+    "Hint: Lima would be: `\"Lima\": -5`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "95e4b82d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e0f93671",
+   "metadata": {},
+   "source": [
+    " j.Add the nexts cities to the dictionary:\n",
+    "- Astana, Kazakhstan,\n",
+    "- Uagadugú, Burkina Faso,\n",
+    "- Balmopan, Belize"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c6c4f120",
+   "metadata": {},
+   "source": [
+    "# Part 3. Numpy\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef5f5f96",
+   "metadata": {},
+   "source": [
+    "k.Create an array with 10 aleatory values that go from 0 to 9"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "914e1007",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f653f08e",
+   "metadata": {},
+   "source": [
+    "l.Create a matrix 3x2 fill with zeros"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6aea98a5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b0cca53d",
+   "metadata": {},
+   "source": [
+    "m.Sum two arrays and then multiply the output by an scalar"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9d7b9466",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7dca938e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9e3e08f",
+   "metadata": {},
+   "source": [
+    "n.Create 2 arrays with the values that you wish :\n",
+    "- Concatenate vertically \n",
+    "- Concatenate horizontally "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6469da02",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c2a634a1",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
